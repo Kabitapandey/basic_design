@@ -1,0 +1,10 @@
+// declaring variables so it can be reused many times throughout the code
+$font:("normal":300, "medium":550, "bold":900);
+@function fontWeight($weight) {
+    @return map-get($font, $weight);
+}
+
+$size:3em;
+$text:rgb(165, 162, 162);
+$small-text:#1BCA9B;
+$border:rgb(226, 220, 220);

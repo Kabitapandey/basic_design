@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CDNS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/6fc930fc30.js "></script>
+
+    <title>Frontend Ninja</title>
+</head>
+
+<body>
+    <div class="container-fluids">
+        <div class="header">
+            <!-- navbar using bootstrap -->
+            <nav class="navbar navbar-dark  navbar-expand-md">
+                <a href="#" class="navbar-brand"><img src="./img/logo.svg" alt=""></a>
+                <button class="navbar-toggler" data-target="#mynavbar" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="mynavbar" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="active nav-link text-success">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> <span class="fa fa-search"></span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- header contents -->
+            <div class="header-content">
+
+                <p class="header-title">Are you a frontend ninja?</p>
+                <p class="header-text">Frontend ninjas are superheros who bring life into designs. <br> We are looking for frontend ninjas with knack of amazing attention to detail. <br> Are you one?</p>
+
+                <button class="apply">Apply Now &numsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> </button>
+            </div>
+        </div>
+
+        <div class="containers">
+            <p class="body-title">What should you have</p>
+            <div class="container-body">
+                <!-- using grid for the responsive layout of the page structure -->
+                <div class="grid">
+                    <div class="grid-items">
+                        <img src="./img/2.png" class="img1" alt="">
+                        <p class="grid-title">Attention to detail</p>
+                        <p class="grid-body">We look for attention to detail in our candidates.As a frontend intern, you should have a superpowers of looking into details of a deign.</p>
+                    </div>
+                    <div class="grid-items">
+                        <img src="./img/3.png" class="img1" alt="">
+                        <p class="grid-title">Frontend tech knowledge</p>
+                        <p class="grid-body">You must be equipped to learn and explore new technologies. You are not afraid to implement a new framework or language.</p>
+                    </div>
+                    <div class="grid-items">
+                        <img src="./img/4.png" class="img1" alt="">
+                        <p class="grid-title">Love for technology</p>
+                        <p class="grid-body">We eat, sleep and breathe technology. You should have love for technology.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-footer">
+                <!-- using flex to align items in a row -->
+                <div class="content-flex">
+                    <div class="content">
+                        <p class="content-title1">Resources</p>
+                        <div class="content-body">
+                            <img src="./img/globe.svg" class="globe" alt="">
+                            <a href="#" class="content-text1">Designer News</a>
+                        </div>
+                        <div class="border1"></div>
+                        <div class="content-body">
+                            <img src="./img/globe.svg" class="globe" alt="">
+                            <a href="#" class="content-text1">Smashing Magazine</a>
+                        </div>
+                        <!-- using border between to grid items -->
+                        <div class="border1"></div>
+
+                        <div class="content-body">
+                            <img src="./img/globe.svg" class="globe" alt="">
+                            <a href="#" class="content-text1">Frontend Front</a>
+                        </div>
+                        <div class="border1"></div>
+                        <div class="content-body">
+
+                            <a href="#" class="content-text1">View all Resources</a>
+                        </div>
+                    </div>
+                    <!-- using border for creating the line after the text -->
+                    <div class="border1-right"></div>
+                </div>
+                <!-- using hr break in order to create a horizontal line while resizing the browser in mobile form -->
+                <hr class="hr-break">
+                <div class="content">
+                    <p class="content-title2">Latest from frontend</p>
+
+                    <div class="grid-content-body">
+                        <a href="#" class="content-text2">JavaScript Performance Optimization Tips: An Overview</a><br>
+                        <small class="content-date">13 HOURS AGO</small>
+                    </div>
+
+                    <div class="border2"></div>
+                    <div class="grid-content-body">
+                        <a href="#" class="content-text2">Designing a dashboard for Concourse</a><br>
+                        <small class="content-date">20 November, 2017</small>
+                    </div>
+
+                    <div class="border2"></div>
+                    <div class="grid-content-body">
+                        <a href="#" class="content-text2">JSRobot-Learn to code in JavaScript by playing a game</a>
+                        <br>
+                        <small class="content-date">17 November, 2017</small>
+                    </div>
+
+                    <div class="border2"></div>
+                    <div class="grid-content-body">
+                        <a href="#" class="content-text2"> View all updates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator">
+            <div class="border-left"></div>
+            <img src="./img/ninja.svg" alt="">
+            <div class="border-left"></div>
+        </div>
+        <div class="images">
+            <p class="image-title">Some random food photos</p>
+            <p class="italic">Just because ¯\_(ツ)_/¯ </p>
+            <!-- using grids for the easy and responsive alignment of images -->
+            <div class="img-grid">
+                <div class="img-grid-container">
+                    <img src="./img/5.png" class="img" alt="">
+                </div>
+                <div class="img-grid-container">
+                    <img src="./img/6.png" class="img" alt="">
+                </div>
+                <div class="img-grid-container">
+                    <img src="./img/7.png" class="img" alt="">
+                </div>
+
+                <div class="img-grid-container">
+                    <img src="./img/8.png" class="img" alt="">
+                </div>
+                <div class="img-grid-container">
+                    <img src="./img/9.png" class="img" alt="">
+                </div>
+                <div class="img-grid-container">
+                    <img src="./img/10.png" class="img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <!-- footer content using grid and flex flex-for the row alignment of the texts and grid for equal grid-boxes so the contents can be kept within the boxes -->
+                <p class="footer-title">What we provide</p>
+                <div class="footer-grid">
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/01.svg" alt="">
+                            <p class="flex-title">Tailored Objectives </p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regilialia</p>
+                    </div>
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/02.svg" alt="">
+                            <p class="flex-title">Support from senior team</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/03.svg" alt="">
+                            <p class="flex-title">learning environment</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/04.svg" alt="">
+                            <p class="flex-title">Delicious lunch</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/05.svg" alt="">
+                            <p class="flex-title">Travel expenses/ stipend</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/06.svg" alt="">
+                            <p class="flex-title">Five working week</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/07.svg" alt="">
+                            <p class="flex-title">Flexible time possibility</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/08.svg" alt="">
+                            <p class="flex-title">Full-timer possibility</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <div class="footer-flex">
+                            <img src="./img/09.svg" alt="">
+                            <p class="flex-title">Socials, retreats, team dinners</p>
+                        </div>
+                        <p class="footer-content">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-button">
+                <button class="apply">Apply Now &numsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> </button>
+                <img src="./img/010.svg" class="footer-ninja mb-5" alt="">
+            </div>
+        </div>
+        <div class="footer-nav">
+            <!-- creating a footer navbar -->
+            <nav class="foot-navbar">
+                <a href="#" class="nav-links">Contact</a>
+                <a href="#" class="nav-links">About</a>
+                <a href="#" class="nav-links">Home</a>
+                <footer class="copyright">&copy; Copyright 2017</footer>
+            </nav>
+        </div>
+
+    </div>
+</body>
+
+</html>

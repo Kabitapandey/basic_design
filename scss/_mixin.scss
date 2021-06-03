@@ -1,0 +1,28 @@
+// using mixins so the code should not be repated again and again 
+@mixin apply {
+    padding: 25px;
+    background-color: $small-text;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    justify-content: center;
+}
+
+@mixin anchor {
+    text-decoration: none;
+    color: $text;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
